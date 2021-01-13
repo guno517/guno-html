@@ -4,8 +4,9 @@ table{
 td {
     border: 1px solid violet;
     padding:10px;
+    text-align: center;
 }
 th{
     border: 1px solid violet;
-    background: yellow;
+    padding: 10px;
 }
