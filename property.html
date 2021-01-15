@@ -19,5 +19,18 @@
         const section = document.querySelector('.section');
         const sectionId = document.getElementById('section');
     </script>
+
+    <div id="id" data-my-name="guno" data-my-age="25">guno</div>
+    <script>
+        const me = document.getElementById('me');
+        console.log(me.dataset.myName);
+        console.log(me.dataset.myAge);
+    </script>
+
+    <hr>
+    <form id="hidden-form" action="/form-action" hidden>
+        <input type="text" name="id" value="guno">
+    </form>
+    <button form="hidden-form" type="submit">전송</button>
 </body>
 </html>
