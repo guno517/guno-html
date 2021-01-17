@@ -1,0 +1,35 @@
+a:hover{
+    font-weight: bold;
+    font-size: 20px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background: aqua;
+    transition: 0.4s;
+}
+.box:hover{
+    width: 200px;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background: bisque;
+}
+
+.box2:active{
+    width:200px;
+}
+
+input{
+    width:100px;
+    outline: none;
+    border: 1px solid red;
+    padding: 5px 10px;
+    transition: 0.5s;
+}
+input:focus{
+    border-color:blue;
+    width: 200px;
+}
